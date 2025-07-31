@@ -1,7 +1,11 @@
-com/bookstore/service/Service.class
 com/bookstore/BookstoreApplication.class
+com/bookstore/service/BookService.class
 com/bookstore/entity/Book.class
+com/bookstore/exception/GlobalExceptionHandler.class
 com/bookstore/service/BookServiceImpl.class
+com/bookstore/dto/BookDTO.class
+com/bookstore/dto/ApiResponse.class
 com/bookstore/controller/BookController.class
 com/bookstore/exception/ResourceNotFoundException.class
+com/bookstore/mapper/BookMapper.class
 com/bookstore/repository/BookRepository.class
