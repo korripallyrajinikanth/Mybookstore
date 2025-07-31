@@ -32,8 +32,8 @@ public class BookController {
 		return  "Your application working fine";
 	}
 
-	@GetMapping("/getBookById{id}")
-	public Book getBookById(int id)
+	@GetMapping("/getBookById/{id}")
+	public Book getBookById(@PathVariable int id)
 	{
 
 		return bookService.getBookById(id);
@@ -45,7 +45,7 @@ public class BookController {
 		return "You deleted all the books From the DATABASE";
 	}
 	@DeleteMapping("/deleteBookById/{id}")
-	public String deleteBookById(int id)
+	public String deleteBookById(@PathVariable int id)
 	{
 
 			bookService.deleteBookById(id);
